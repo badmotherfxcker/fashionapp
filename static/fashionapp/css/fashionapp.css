@@ -1,5 +1,5 @@
 		body {
-			background-image: url("{% static "fashionapp/images/fpd.gif" %}");
+			background-image: url("{% static "images/fpd.gif" %}");
 		}
 
 		h1 {
