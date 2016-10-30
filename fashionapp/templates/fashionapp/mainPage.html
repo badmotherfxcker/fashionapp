@@ -1,19 +1,11 @@
+{% load staticfiles %}
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
  <head>
    <title>Welcome to FPD</title>
    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-   <style type="text/css">
-		body {
-			background-image: url("static/fashionapp/fpd.gif");
-		}
-
-		h1 {
-			color: red;
-			text-align: center;
-		}
-  </style>
+   <link rel="stylesheet" href="{% static 'css/fashionapp.css' %}">
  </head>
  <body>
    <h1>Hello, world!</h1>
