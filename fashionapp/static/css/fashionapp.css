@@ -1,8 +1,8 @@
 		body {
-			background-image: "{% static "images/fpd.gif" %}";
+			background-image: url("{% static "images/fpd.gif" %}");
 		}
 
 		h1 {
-			   color: #FCA205;
+			   color: red;
                font-family: 'Lobster';
 		}
